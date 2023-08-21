@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ct => custom */
+.ct-top-menu-item {
+    @apply relative font-bold hover:cursor-pointer hover:text-gray-800 hover:after:lg:block hover:after:lg:w-full after:lg:absolute after:lg:content-[''] after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:lg:h-[2px] after:lg:duration-[0.3s] after:lg:w-0 after:lg:ease-in-out;
+}
+
+.ct-icons{
+    @apply w-5 h-5 inline-block;
+}
+
+.ct-badge-circle{
+    @apply text-xs text-center rounded-full px-1.5;
+}
+
+.ct-top-menu-expanded{
+    @apply absolute z-50 w-full bg-white top-10 text-center animate-slideDown rounded-b-md
+}
