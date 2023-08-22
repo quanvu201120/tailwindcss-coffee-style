@@ -4,7 +4,7 @@
 
 /* ct => custom */
 .ct-top-menu-item {
-    @apply relative font-bold hover:cursor-pointer hover:text-gray-800 hover:after:lg:block hover:after:lg:w-full after:lg:absolute after:lg:content-[''] after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:lg:h-[2px] after:lg:duration-[0.3s] after:lg:w-0 after:lg:ease-in-out;
+    @apply relative font-bold hover:cursor-pointer hover:text-gray-800 hover:after:lg:block hover:after:lg:w-full after:lg:absolute after:lg:content-[''] after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-[2px] after:lg:duration-[0.3s] after:lg:w-0 after:lg:ease-in-out;
 }
 
 .ct-icons{
@@ -16,5 +16,17 @@
 }
 
 .ct-top-menu-expanded{
-    @apply absolute z-50 w-full bg-white top-10 text-center animate-slideDown rounded-b-md
+    @apply absolute z-50 w-full bg-white top-10 text-center animate-slideDown rounded-b-md;
+}
+
+.ct-subheadline{
+    @apply flex justify-center items-center mb-24 gap-2; 
+}
+
+.ct-subheader-deco-line{
+   @apply w-8 h-[1px] bg-gray-200;
+}
+
+.ct-subheader-label{
+    @apply uppercase tracking-widest text-gray-500 font-medium text-xs text-center;
 }
