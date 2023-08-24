@@ -20,7 +20,7 @@
 }
 
 .ct-subheadline{
-    @apply flex justify-center items-center mb-24 gap-2; 
+    @apply flex justify-center items-center my-24 gap-2; 
 }
 
 .ct-subheader-deco-line{
@@ -29,4 +29,10 @@
 
 .ct-subheader-label{
     @apply uppercase tracking-widest text-gray-500 font-medium text-xs text-center;
+}
+
+/* [&>:last-child]:hover:opacity-100 [&>:last-child]:hover:bottom-5 */
+
+.ct-btn{
+    @apply bg-white font-bold px-4 py-3 text-center tracking-[0.2rem] uppercase text-[10px] cursor-pointer hover:bg-opacity-80 duration-300
 }
