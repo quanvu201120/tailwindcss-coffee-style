@@ -34,5 +34,5 @@
 /* [&>:last-child]:hover:opacity-100 [&>:last-child]:hover:bottom-5 */
 
 .ct-btn{
-    @apply bg-white font-bold px-4 py-3 text-center tracking-[0.2rem] uppercase text-[10px] cursor-pointer hover:bg-opacity-80 duration-300
+    @apply font-bold px-4 py-3 text-center tracking-[0.2rem] uppercase text-[10px] cursor-pointer hover:bg-opacity-80 duration-300
 }
