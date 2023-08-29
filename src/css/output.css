@@ -550,20 +550,16 @@ video {
   left: 50%;
 }
 
+.left-\[calc\(-50vw_\+_50\%\)\] {
+  left: calc(-50vw + 50%);
+}
+
 .right-3 {
   right: 0.75rem;
 }
 
 .top-3 {
   top: 0.75rem;
-}
-
-.left-\[calc\(-50vw_\+_50\%\)\] {
-  left: calc(-50vw + 50%);
-}
-
-.left-\[0\] {
-  left: 0;
 }
 
 .m-\[15px_0px_20px_0px\] {
@@ -593,6 +589,11 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .mb-24 {
@@ -659,8 +660,16 @@ video {
   height: 100%;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .w-\[100px\] {
   width: 100px;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
 }
 
 .w-\[90\%\] {
@@ -679,10 +688,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[100vw\] {
-  width: 100vw;
 }
 
 .max-w-screen-2xl {
@@ -793,6 +798,15 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/img\/bg_parallax1\.jpg\'\)\] {
+  background-image: url('../img/bg_parallax1.jpg');
+}
+
 .bg-\[url\(\'\.\.\/img\/feature_mugs_img1\.jpg\'\)\] {
   background-image: url('../img/feature_mugs_img1.jpg');
 }
@@ -849,8 +863,16 @@ video {
   background-image: url('../img/slider_bg.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/bg_parallax1\.jpg\'\)\] {
-  background-image: url('../img/bg_parallax1.jpg');
+.bg-\[url\(\'\.\.\/img\/lifestyle-stories1\.jpg\'\)\] {
+  background-image: url('../img/lifestyle-stories1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/lifestyle-stories2\.jpg\'\)\] {
+  background-image: url('../img/lifestyle-stories2.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/lifestyle-stories3\.jpg\'\)\] {
+  background-image: url('../img/lifestyle-stories3.jpg');
 }
 
 .bg-cover {
@@ -915,6 +937,10 @@ video {
 
 .pb-0 {
   padding-bottom: 0px;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -1025,6 +1051,10 @@ video {
   letter-spacing: 0.05em;
 }
 
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1078,6 +1108,18 @@ video {
 
 .opacity-\[0\.45\] {
   opacity: 0.45;
+}
+
+.opacity-\[0\.70\] {
+  opacity: 0.70;
+}
+
+.opacity-\[0\.7\] {
+  opacity: 0.7;
+}
+
+.opacity-\[0\.50\] {
+  opacity: 0.50;
 }
 
 .transition-all {
